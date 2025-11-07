@@ -2,6 +2,12 @@
 
 A lightweight notes app with a modern "Ocean Professional" theme. Create, edit, delete, and search notes. Notes persist locally via `localStorage`.
 
+Supabase backend scaffolding is included. To enable live storage in a Supabase project with open access to public.notes, set:
+- REACT_APP_SUPABASE_URL
+- REACT_APP_SUPABASE_KEY
+
+If these are not set, the app continues to use localStorage only.
+
 ## Quick start
 
 - npm start
